@@ -1,12 +1,18 @@
 # ex1
-# for i in range(10,21):
-#     print (i)
-#
-#ex2
-# for i in range(10,21,2):
-#     print (i)
-
-#ex3
-gap: int = int(input("please enter the gap:\n"));
-for i in range(10, 21, gap):
+i = 10
+while i < 21:
     print(i)
+    i += 1;
+
+# ex2
+i = 10;
+while i < 21:
+    print(i)
+    i += 2;
+
+# ex3
+i = 10;
+gap: int = int(input("please enter the gap:\n"));
+while i < 21:
+    print(i)
+    i += gap;
